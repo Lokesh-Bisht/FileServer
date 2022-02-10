@@ -1,4 +1,4 @@
-# <p align="center">Welcome to FileServer 🎮 👋</p>
+# <p align="center">Welcome to FileServer👨‍💻 👋</p>
 
 <blockquote>
 FileServer is a multithreaded client-server program that uses TCP/IP connection for establshing a connection between a client and the server.
@@ -86,9 +86,7 @@ https://user-images.githubusercontent.com/40322896/153409073-49da0406-181f-43f0-
 2. Closing the client
 3. Shutting down the server
 
-
-
-https://user-images.githubusercontent.com/40322896/153410103-a9f3f2c7-0459-4719-a542-c874d57a9ff7.mov
+https://user-images.githubusercontent.com/40322896/153411122-e4a632da-a706-4e44-8f92-5e504b7d5848.mov
 
 <br/> <br/>
 

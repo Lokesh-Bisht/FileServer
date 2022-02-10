@@ -28,7 +28,7 @@ the client to upload, fetch and delete files on/from the server. The file can be
 
 ## Getting started <a name="getting-started"></a>
 
-### The Server: <a name="server"></a>
+### The Server <a name="server"></a>
 
 FileServer consist of a multithreaded server that listens for incoming clients on the main thread and processes the client request on a separate pool 
 of threads. This helps the server from not being occupied by the processing of the long running client request. And server will always be available 
@@ -37,7 +37,7 @@ for listening to new client request. Once the server process the client request,
 and handles each client request on a separate thread.
 
 
-### The Client: <a name="client"></a>
+### The Client <a name="client"></a>
 
 The client sends a request to the server. And waits for the server response. After the server sends back a response the client displays an approriate message realated to the response to the user. 
 
@@ -55,8 +55,42 @@ The client can send the different types of request to the server, which are as f
 
 ## ✨Demo <a name="demo"></a>
 
-![FileServer demo gif]()
+**Uploading files on the server**
 
+https://user-images.githubusercontent.com/40322896/153406912-f750d8d0-5e85-4755-9b0c-cc246e40adf9.mov
+
+<br/> <br/>
+
+
+**Retrieving files from the server**
+
+https://user-images.githubusercontent.com/40322896/153407294-825f8bb6-17b5-4d74-9cf6-01dfaa2e0b73.mov
+
+<br/> <br/>
+
+**Deleting files from the server**
+
+https://user-images.githubusercontent.com/40322896/153407354-acf1c426-c011-45ea-b227-5b8de0c131d7.mov
+
+<br/> <br/>
+
+**Invalid Client Request**: 
+For example retrieving/deleting (by file name or file ID) a file from the server that does not exist on the server. Or uploading a file on the server that does not exist on the client machine.
+
+https://user-images.githubusercontent.com/40322896/153409073-49da0406-181f-43f0-8410-aaddfcb13a66.mov
+
+<br/> <br/>
+
+**Other user actions**:
+1. Invalid user action
+2. Closing the client
+3. Shutting down the server
+
+
+
+https://user-images.githubusercontent.com/40322896/153410103-a9f3f2c7-0459-4719-a542-c874d57a9ff7.mov
+
+<br/> <br/>
 
 ## Installation <a name="installation"></a>
 
